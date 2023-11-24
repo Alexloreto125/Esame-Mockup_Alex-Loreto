@@ -1,0 +1,119 @@
+/* !FONT */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@300&display=swap");
+/* !GENERAL */
+header,
+main,
+footer {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* !Body */
+body {
+  margin: 0;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.65;
+  font-family: "Open Sans", sans-serif;
+  color: #393d41;
+  /* todo background color black */
+}
+/* !Header */
+header {
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  line-height: 1.5;
+  width: 100%;
+}
+#logo {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.title-color {
+  line-height: 1;
+  color: #25a2c3;
+  font-family: "Montserrat", sans-serif;
+}
+
+#hdback {
+  background: url(../images/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 25px;
+  height: 345px;
+}
+button {
+  background-color: #f04c2f;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  border-style: none;
+  padding: 14px 32px 14px 32px;
+  border-radius: 5%;
+}
+
+/* !MAIN */
+
+#notebook {
+  width: 250px;
+
+  border-radius: 50%;
+}
+.images-pc {
+  width: 100%;
+}
+.border-images {
+  margin: 7%;
+  border: 1px solid #dee1e3;
+  border-radius: 1%;
+}
+ol,
+ul {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+p {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.orange-color {
+  background-color: #ff4500;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: white;
+}
+.font-size-Epicode {
+  font-family: "Montserrat", sans-serif;
+}
+
+.paragrafo-orange {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.paragrafo-nero {
+  margin-bottom: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+/* !FOOTER */
+
+footer {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: #25a2c3;
+}
+a {
+  color: #c8e7f0;
+}
+#FooterHeading {
+  color: white;
+}
+i {
+  color: white;
+}
+.anoline {
+  text-decoration: none;
+}

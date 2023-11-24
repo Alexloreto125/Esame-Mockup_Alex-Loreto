@@ -1,0 +1,142 @@
+/* !FONT */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@300&display=swap");
+/* !GENERAL */
+header,
+main,
+footer {
+  max-width: 1366px 1920px;
+}
+/* !Body */
+body {
+  margin: 0;
+
+  font-size: 20px;
+  line-height: 1.65;
+  font-family: "Open Sans", sans-serif;
+  color: #393d41;
+  /* todo background color black */
+}
+/* !Header */
+header {
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: 1.5;
+  width: 100%;
+}
+
+#logo {
+  display: block;
+  padding: 20px;
+}
+.title-color {
+  line-height: 1;
+  color: #25a2c3;
+  font-family: "Montserrat", sans-serif;
+}
+
+#hdback {
+  background: url(../images/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 9%;
+
+  max-width: 1920px;
+}
+button {
+  background-color: #f04c2f;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  border-style: none;
+  padding: 16px 35px 16px 35px;
+  margin-top: 20px;
+  border-radius: 5%;
+}
+
+/* !MAIN */
+
+#notebook {
+  width: 300px;
+  display: inline;
+  border-radius: 50%;
+}
+
+.images-pc {
+  display: inline-block;
+  width: 100%;
+}
+.border-images {
+  text-align: center;
+  display: inline-block;
+  margin: 7%;
+  border: 1px solid #dee1e3;
+  border-radius: 1%;
+}
+ol,
+ul {
+  text-align: left;
+  display: inline-block;
+  list-style: none;
+}
+li {
+  text-align: left;
+  padding-inline-start: 0px;
+}
+
+.orange-color {
+  background-color: #ff4500;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: white;
+}
+.font-size-Epicode {
+  font-family: "Montserrat", sans-serif;
+}
+
+.paragrafo-orange {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.paragrafo-nero {
+  margin-bottom: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+/* !FOOTER */
+
+footer {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: #25a2c3;
+  text-align: center;
+}
+a {
+  color: #c8e7f0;
+}
+#FooterHeading {
+  color: white;
+}
+i {
+  color: white;
+}
+.anoline {
+  text-decoration: none;
+}
+img {
+  width: auto;
+  display: inline;
+}
+
+table {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td {
+  margin: 7%;
+  border: 1px solid #dee1e3;
+  border-radius: 1%;
+}

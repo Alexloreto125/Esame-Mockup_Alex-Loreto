@@ -1,0 +1,11 @@
+/* !FONT */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@300&display=swap");
+
+/* !Body */
+body {
+  background-color: aqua;
+  font-size: 1.2rem;
+  line-height: 1.65;
+  font-family: "Open Sans", sans-serif;
+  color: #393d41;
+}
